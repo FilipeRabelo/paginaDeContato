@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maxmu-scale, user-scalable=no ">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Pagina de Contato</title>
+
+    </head>
+
+    <body>
+
+        <div id="main-container">
+
+            <!-- Informacoes de endereco -->
+            <div id="address-container">            <!-- Div a esquerda -->
+
+                <div class="fade"></div>    <!-- para escurescer a foto -->
+               
+                <div id="address-content">
+                    <h2> <ion-icon name="paper-plane"></ion-icon>Endereco</h2>
+                    <p>Rua das Flores 133</p>
+                    <h2> <ion-icon name="call"></ion-icon>Telefone</h2>
+                    <p>(31) 9-9999 9999</p>
+                    <h2> <ion-icon name="mail"></ion-icon>E-mail</h2>
+                    <p>meuemail@email.com</p>
+                </div>
+
+            </div>
+
+            <!-- Formulario para contato -->
+            <div id="form-container">  
+                <!-- Div a direita -->
+                <h2>Nos mande uma mensagem!</h2>
+
+                <form id="contact-form">
+
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" placeholder="Digite o Seu Nome:">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" placeholder="Digite o Seu E-mail:">
+
+                    <label for="phone">Telefone:</label>
+                    <input type="text" name="phone" placeholder="Digite o Seu Telefone:">
+
+                    <label for="msg">Sua Mensagem:</label>
+                    <textarea name="msg" placeholder="Como podemos te ajudar?"></textarea>                    
+                    
+                    <input type="submit" value="Enviar Mensagem">
+                
+                </form>
+            </div>
+            
+        </div>    
+
+        <script  src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" > </script>
+
+    </body>
+</html>
